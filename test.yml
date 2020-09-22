@@ -1,0 +1,7 @@
+- hosts: localhost
+  
+  tasks: 
+  - name: mkdir tomcat
+    file:
+      path: "/home/shreeyadav21/ansilab/tomcat"
+      state: directory
